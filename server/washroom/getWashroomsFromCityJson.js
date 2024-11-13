@@ -15,7 +15,8 @@ const washrooms = cityWashrooms.map((cityWashroom) => {
         location: {
             type: "Point",
             coordinates: cityWashroom.multipolygon.coordinates[0][0][0]
-        }
+        },
+        toiletpaper: (Math.random() > 0.5) ? true : false
     }
 })
 

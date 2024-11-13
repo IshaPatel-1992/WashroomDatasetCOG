@@ -1,4 +1,5 @@
 import './App.css'
+import WashroomDetails from './WashroomDetail.jsx'
 import WashroomList from './WashroomList'
 
 function App() {
